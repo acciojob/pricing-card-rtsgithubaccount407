@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+ * {
+            box-sizing: border-box;
+        }
+        
+        div img {
+            padding-top: 32px;
+        }
+        
+        .main {
+            width: 582px;
+            border: 1px solid rgb(255, 255, 255);
+            font-size: 40px;
+            box-shadow: 1px 1px 18px black;
+            background-color: rgba(228, 229, 230, 0.579);
+            border-radius: 12px;
+            padding: 40px
+        }
+        
+        button[type="submit"] {
+            border-radius: 25px;
+            padding: 28px;
+            margin: 12px;
+            font-size: 23px;
+            width: 155px;
+            border-color: rgb(237, 237, 237);
+            color: white;
+            background-color: rgb(226, 100, 100);
